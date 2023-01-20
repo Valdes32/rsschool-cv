@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>rsschool-cv-html</title>
+</head>
+<body>
+	<div class="content">
+		<div class="two-columns">
+			<div class="left-column">
+				<header>
+					<img class="portrait" src="./images/photo.jpg" alt="my-portrait" width="230" height="230">
+					<h1>Vladislav Kulygin</h1>
+					<div class="location">
+						<h3>Location</h3>
+						<img class="icon-flag" src="./icons/turkey.svg" alt="" height="20" width="20">
+						<h4>Turkey</h4>
+					</div>
+				</header>
+			<main>
+				<section>
+					<div>
+						<h3>CONTACTS</h3>
+						<ul>
+							<li>+90 (506) 259 94 75</li>
+							<li>vladislav.kulygin.191@gmail.com</li>
+							<li><a href="https://t.me/valdes191">Telegram</a></li>
+							<li><a href="https://www.linkedin.com/in/vladislav-kulygin-917729252/">LinkedIn</a></li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h3>SKILLS</h3>
+						<ul>
+							<li>HTML5, CSS3</li>
+							<li>Git, GitHub</li>
+							<li>VS Code</li>
+							<li>Adobe Photoshop, Illustrator, Figma</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<div>
+						<h3>LANGUAGES</h3>
+						<ul>
+							<li>
+								<p><b>ENGLISH:</b> level A2</p>
+							</li>
+							<li>
+								<p><b>RUSSIAN:</b> Native</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</main>
+			</div>
+		<div class="right-column">
+			<section>
+				<h3>ABOUT MYSELF</h3>
+				<p>Well, I grew up in St.Petersburg.</p>
+				<p>Three years ago I’ve new hobby become passionate about retouching. I’ve mastered different retouching techniques,
+					learned to work with graphic tablet, become an advanced Photoshop user and Figma.</p>
+				<p>Remote work as a it engener gives me extra free time, which I spend learning Frontend Development.
+					I’m interested in Web Development because this occupation provides endless possibilities for professional
+					growth,
+					besides there’s a huge amount of free high quality resources for self-education and a large community of
+					developers.</p>
+				<p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a
+					proficient Frontend Developer.</p>
+			</section>
+			<section>
+				<h3>EDUCATION</h3>
+				<p><strong>St.Petersburg Polytechnic University</strong></p>
+    		<p>Faculty of Management and Information Technology</p>
+    		<p>Years: 2012 - 2015</p>
+    		<p>Technologies for designing system and application software</p>
+			</section>
+		</div>
+		</div>
+		<section>
+			<h3>CODE EXAMPLE</h3>
+			<pre>
+				<code>
+function peak(arr) {
+
+for (let i = 1; i &lt; arr.length - 1; i++) {
+let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);
+let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);
+
+if (leftSum === rightSum) return i;
+}
+return -1;
+}
+				</code>
+			</pre>
+	</section>
+	<footer>
+		<div>
+			<a class="github" href="https://github.com/Valdes32">
+				<img class="github-icon" src="./icons/github-white.svg" alt="logo-git" height="50">
+				<p>Visit my github</p>
+			</a>
+		</div>
+		<p>2023Q1</p>
+		<div>
+			<a class="rsschool" href="https://app.rs.school/">
+				<img src="./icons/rs_school.svg" alt="rsschool-log" height="39">
+			</a>
+		</div>
+	</footer>
+</div>
+</body>
+</html>
