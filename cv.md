@@ -42,3 +42,14 @@ function peak(arr) {
 }
 ```
 ---
+
+### Courses:
+
+- HTML and CSS Tutorials on the [freeCodeCamp](https://www.freecodecamp.org/) (in progress)
+- JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
+- RS Schools Course «JavaScript/Front-end» (in progress)
+
+---
+
+### Language:
+**English level**  A2
