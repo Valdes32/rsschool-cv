@@ -1,0 +1,107 @@
+body {
+	box-sizing: border-box;
+	background:white;
+}
+
+.content {
+	margin: auto;
+	width: 700px;
+	background-color: beige;
+	font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+	box-shadow:
+       			inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+
+.two-columns {
+  display: flex;
+}
+
+.left-column {
+  width: 350px;
+  color: white;
+  background-color: grey;
+}
+
+.right-column {
+  width: 400px;
+  padding: 20px;
+}
+
+h1 {
+	font: center;
+	text-align: center;
+}
+
+h2 {
+  font: center;
+	border-bottom: 2px solid;
+	width: 156px;
+  margin: 20px auto 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #2d2d2d;
+  background-color: var(--dark-gray-color);
+}
+
+header {
+	margin: 12px 12px 0px;
+	color:rgb(255, 255, 255);
+}
+.location {
+	display: grid;
+}
+
+.icon-flag {
+	margin: auto;
+}
+h4 {
+	margin: auto;
+	color:rgb(173, 19, 31);
+}
+
+.portrait {
+	margin: 0 0 0 25px;
+	border-radius: 50%;
+	border: 3px;
+	border-color: antiquewhite;
+	border-style: inset;
+}
+
+a {
+	color:#f5f5f5;
+}
+
+pre {
+  margin-top: 20px;
+  padding-left: 30px;
+  font-family: monospace;
+  font-size: 0.7rem;
+  background-color: #f5f5f5;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-between;
+  align-items: center;
+	padding: 20px;
+	font-size: 0.8rem;
+	background-color:rgb(67, 67, 67);
+}
+
+nav p {
+	color:#f5f5f5;
+}
+
+.github-icon {
+  margin-right: 10px;
+}
+
+.github {
+  display: flex;
+}
