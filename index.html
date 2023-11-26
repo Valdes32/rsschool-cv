@@ -102,6 +102,23 @@
                 <p>Years: 2012 - 2015</p>
                 <p>Technologies for designing system and application software</p>
             </section>
+            <section>
+                <h2>CODE EXAMPLE</h2>
+                <pre>
+                    <code>
+    function peak(arr) {
+    
+    for (let i = 1; i &lt; arr.length - 1; i++) {
+    et leftSum = arr.slice(0, i).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);
+    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);
+    
+    if (leftSum === rightSum) return i;
+    }
+    return -1;
+    }
+                    </code>
+                </pre>
+            </section>
         </div>
     </div>
 </body>
